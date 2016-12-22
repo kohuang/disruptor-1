@@ -62,7 +62,7 @@
   </prerequisites>
    
   <properties>
-    <jdk.version>1.8</jdk.version>
+    <jdk.version>1.7</jdk.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <snapshots.repo.id>ossrh</snapshots.repo.id>
@@ -81,6 +81,7 @@
 	    <source>${jdk.version}</source>
 	    <target>${jdk.version}</target>
 	    <encoding>${project.build.sourceEncoding}</encoding>
+            <!-- <executable>/usr/lib/jvm/jdk-9/bin/javac</executable> -->
 	  </configuration>
 	</plugin>
 	<plugin>
